@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { Route, Redirect, Switch } from "react-router-dom";
 import SignUpForm from "./components/forms/SignUp";
 import Login from "./components/forms/Login";
-import Issues from "./components/Issues";
+import Issues from "./components/issues/Issues";
 
 function App() {
   if (localStorage.getItem("token")) {
